@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/item_daily_margin"
+    android:paddingTop="@dimen/item_daily_padding_top"
+    android:paddingRight="@dimen/item_daily_margin">
+
+    <TextView
+        android:id="@+id/text_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="110dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/item_daily_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="@dimen/item_daily_image_width"
+        android:layout_height="@dimen/item_daily_image_width"
+        android:src="@drawable/ic_partly_cloudy_day"
+        app:layout_constraintEnd_toStartOf="@+id/text_temp_max"
+        app:layout_constraintStart_toEndOf="@+id/text_day"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_temp_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_daily_margin"
+        android:layout_marginRight="@dimen/item_daily_margin"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/item_daily_text_size"
+        app:layout_constraintEnd_toStartOf="@+id/text_temp_min"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_temp_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/weekly_color_text_temp_min"
+        android:textSize="@dimen/item_daily_text_size"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

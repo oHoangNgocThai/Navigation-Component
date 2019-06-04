@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weather_text_size_temp">65sp</dimen>
+    <dimen name="weather_margin_top">16dp</dimen>
+    <dimen name="weather_text_size_button">20sp</dimen>
+    <dimen name="item_daily_text_size">16sp</dimen>
+    <dimen name="item_daily_padding">10dp</dimen>
+    <dimen name="item_daily_image_width">24dp</dimen>
+    <dimen name="item_daily_margin_top">8dp</dimen>
+    <dimen name="item_daily_margin">16sp</dimen>
+    <dimen name="item_daily_padding_top">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="user_text_size">20sp</dimen>
+</resources>
