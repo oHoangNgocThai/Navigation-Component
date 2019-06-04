@@ -48,9 +48,6 @@ dependencies {
     implementation deps.vector_drawable
 
     // Test
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0-alpha1'
-    implementation 'androidx.appcompat:appcompat:1.0.0-alpha1'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
     testImplementation deps.test.junit
     androidTestImplementation deps.test.runner
     androidTestImplementation deps.test.espresso
